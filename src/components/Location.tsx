@@ -20,7 +20,7 @@ export default function Location() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/images/render/aerial-sea.webp"
-                alt="송정 해변과 동부산 일대를 담은 엑소디움 시그니처 해운대 조감도"
+                alt="송정해변과 동부산 일대를 담은 엑소디움 시그니처 해운대 조감도"
                 width={1920}
                 height={1072}
                 loading="lazy"

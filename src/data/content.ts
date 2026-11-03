@@ -14,7 +14,7 @@ export const HERO_STATS = [
   { value: "324", unit: "세대", label: "민간임대 아파트" },
   { value: "32", unit: "층", label: "지하 5층 ~ 지상 32층" },
   { value: "59·84", unit: "㎡", label: "3개 타입" },
-  { value: "5", unit: "분", label: "송정해수욕장 도보 약" },
+  { value: "약 5", unit: "분", label: "송정해수욕장까지 도보" },
 ];
 
 export const OVERVIEW_ROWS: { th: string; td: string }[] = [
@@ -22,7 +22,7 @@ export const OVERVIEW_ROWS: { th: string; td: string }[] = [
   { th: "공급유형", td: "10년 전세형 민간임대 아파트" },
   { th: "대지위치", td: "부산광역시 해운대구 송정동 349번지 일원" },
   { th: "대지면적", td: "7,634㎡ (약 2,309평)" },
-  { th: "연면적", td: "99,721㎡ (약 30,165평)" },
+  { th: "연면적", td: "99,721㎡ (약 30,166평)" },
   { th: "건축규모", td: "지하 5층 ~ 지상 32층, 아파트 2개동 (101동·102동)" },
   { th: "세대수", td: "총 324세대 (59㎡ 108 · 84㎡A 108 · 84㎡B 108)" },
   { th: "주차대수", td: "총 692대 (아파트 350대 · 부대시설 342대)" },
@@ -43,8 +43,8 @@ export const SCHEDULE = [
 
 export const LOCATION = [
   {
-    title: "송정해수욕장 · 죽도공원",
-    desc: "서핑과 산책을 일상에서 누리는 해변 생활권",
+    title: "송정해수욕장",
+    desc: "죽도공원과 이어지는 해변, 서핑·산책 생활권",
     dist: "도보 약 5분",
   },
   {
@@ -64,7 +64,7 @@ export const LOCATION = [
   },
   {
     title: "만덕~센텀 도시고속화도로",
-    desc: "센텀IC에서 만덕까지 서부산 방면 지하 고속화도로",
+    desc: "센텀IC~만덕IC 9.62km 대심도 지하도로",
     dist: "2026.02 개통",
   },
 ];
@@ -106,8 +106,8 @@ export const GALLERY: GalleryItem[] = [
   {
     src: "/images/render/perspective-dusk.webp",
     thumb: "/images/render/perspective-dusk-thumb.webp",
-    alt: "엑소디움 시그니처 해운대 저층부 투시도",
-    caption: "투시도 · 저층부",
+    alt: "해 질 녘 엑소디움 시그니처 해운대 투시도",
+    caption: "투시도 · 석양",
     w: 1920,
     h: 1072,
   },
@@ -126,7 +126,7 @@ export const COMMUNITY = [
   { title: "라운지 · 옥상정원", desc: "입주민 휴식 공간" },
   { title: "피트니스 · GX", desc: "운동과 그룹 프로그램 공간" },
   { title: "사우나", desc: "입주민 전용 사우나" },
-  { title: "프라이빗 다이닝룸", desc: "모임과 식사를 위한 예약 공간" },
+  { title: "프라이빗 다이닝룸", desc: "모임과 식사를 위한 공간" },
   { title: "코워킹 라이브러리", desc: "업무·독서 공간" },
   { title: "키즈존 · 돌봄센터", desc: "어린이 놀이와 돌봄 공간" },
   { title: "서핑 라커", desc: "보드와 장비를 보관하는 공간" },
@@ -206,7 +206,7 @@ export const PLANS: Plan[] = [
       { title: "분리형 LK", desc: "거실과 주방 공간을 구분한 구성" },
       { title: "마스터룸 분리", desc: "침실과 거실을 떨어뜨린 배치" },
       { title: "복도 면적 최소화", desc: "버려지는 공간을 줄인 동선" },
-      { title: "독립 마스터존", desc: "서재·화장실·드레스룸을 갖춘 안방 구성" },
+      { title: "독립 마스터존", desc: "드레스룸과 욕실을 갖춘 안방 구성" },
     ],
   },
 ];
@@ -230,7 +230,7 @@ export const FAQ = [
   },
   {
     q: "임대 기간 중 임대료는 어떻게 되나요?",
-    a: "임대료 증액은 「민간임대주택에 관한 특별법」에 따라 연 5% 범위 이내로 제한됩니다. 세부 조건은 임대차 계약서를 기준으로 합니다.",
+    a: "「민간임대주택에 관한 특별법」에 따라 임대료 증액은 5% 범위 이내로 제한되며, 증액 후 1년 이내에는 다시 증액할 수 없습니다. 세부 조건은 임대차 계약서를 기준으로 합니다.",
   },
   {
     q: "관심고객으로 등록하면 어떻게 되나요?",

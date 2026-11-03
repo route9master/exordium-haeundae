@@ -7,7 +7,7 @@ import Lightbox from "./Lightbox";
 import Reveal from "./Reveal";
 import SectionHeader from "./SectionHeader";
 
-// 배치: [0] 조감도(큰 칸) [1][2] 투시도 주간·야간(오른쪽 세로) [4] 배치도 [3] 저층부
+// 배치: [0] 조감도(큰 칸) [1][2] 투시도 주간·야간(오른쪽 세로) [4] 배치도 [3] 석양
 const LAYOUT: { i: number; cls: string; ratio: string }[] = [
   { i: 0, cls: "md:col-span-8 md:row-span-2", ratio: "aspect-[16/10] md:aspect-auto md:h-full" },
   { i: 1, cls: "md:col-span-4", ratio: "aspect-[16/10]" },
