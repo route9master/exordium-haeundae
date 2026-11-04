@@ -9,7 +9,11 @@ export default function Analytics() {
         <>
           <Script src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ADS.id}`} strategy="afterInteractive" />
           <Script id="gtag-init" strategy="afterInteractive">
-            {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('js',new Date());gtag('config','${GOOGLE_ADS.id}');`}
+            {`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=gtag;gtag('js',new Date());gtag('config','${GOOGLE_ADS.id}');${
+              GOOGLE_ADS.labels.pageview
+                ? `gtag('event','conversion',{send_to:'${GOOGLE_ADS.id}/${GOOGLE_ADS.labels.pageview}',value:1.0,currency:'KRW'});`
+                : ""
+            }`}
           </Script>
         </>
       )}

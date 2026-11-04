@@ -1,4 +1,4 @@
-﻿// 사이트 공통 정보 — 문구·번호는 여기서만 고친다.
+// 사이트 공통 정보 — 문구·번호는 여기서만 고친다.
 
 export const SITE = {
   name: "엑소디움 시그니처 해운대",
@@ -26,7 +26,8 @@ export const AGENCY = {
 // 예) id: "AW-1234567890", labels: { sms: "AbCdEf...", tel: "GhIjKl..." }
 export const GOOGLE_ADS = {
   id: "AW-18553144634",
-  labels: { sms: "hMb5CK2C3rEdELqK6o5F", tel: "" },
+  // pageview: 페이지 접속 시 1회, sms: 문자 접수 버튼, tel: 전화번호 클릭
+  labels: { sms: "hMb5CK2C3rEdELqK6o5F", tel: "", pageview: "_ppRCJLFgbEdELqK6o5F" },
 };
 // GTM을 쓸 경우 컨테이너 ID (예: "GTM-XXXXXXX"). dataLayer 이벤트: sms_submit, tel_click
 export const GTM_ID = "";
