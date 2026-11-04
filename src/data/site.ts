@@ -27,7 +27,7 @@ export const AGENCY = {
 export const GOOGLE_ADS = {
   id: "AW-18553144634",
   // pageview: 페이지 접속 시 1회, sms: 문자 접수 버튼, tel: 전화번호 클릭
-  labels: { sms: "hMb5CK2C3rEdELqK6o5F", tel: "", pageview: "_ppRCJLFgbEdELqK6o5F" },
+  labels: { sms: "hMb5CK2C3rEdELqK6o5F", tel: "faXUCI3S1bEdELqK6o5F", pageview: "_ppRCJLFgbEdELqK6o5F" },
 };
 // GTM을 쓸 경우 컨테이너 ID (예: "GTM-XXXXXXX"). dataLayer 이벤트: sms_submit, tel_click
 export const GTM_ID = "";
