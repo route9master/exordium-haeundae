@@ -1,4 +1,4 @@
-// 사이트 공통 정보 — 문구·번호는 여기서만 고친다.
+﻿// 사이트 공통 정보 — 문구·번호는 여기서만 고친다.
 
 export const SITE = {
   name: "엑소디움 시그니처 해운대",
@@ -25,7 +25,7 @@ export const AGENCY = {
 // 구글 전환 추적 — 값이 비어 있으면 스크립트를 넣지 않는다.
 // 예) id: "AW-1234567890", labels: { sms: "AbCdEf...", tel: "GhIjKl..." }
 export const GOOGLE_ADS = {
-  id: "",
+  id: "AW-18553144634",
   labels: { sms: "", tel: "" },
 };
 // GTM을 쓸 경우 컨테이너 ID (예: "GTM-XXXXXXX"). dataLayer 이벤트: sms_submit, tel_click
