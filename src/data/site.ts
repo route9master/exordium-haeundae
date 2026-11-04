@@ -26,7 +26,7 @@ export const AGENCY = {
 // 예) id: "AW-1234567890", labels: { sms: "AbCdEf...", tel: "GhIjKl..." }
 export const GOOGLE_ADS = {
   id: "AW-18553144634",
-  labels: { sms: "", tel: "" },
+  labels: { sms: "hMb5CK2C3rEdELqK6o5F", tel: "" },
 };
 // GTM을 쓸 경우 컨테이너 ID (예: "GTM-XXXXXXX"). dataLayer 이벤트: sms_submit, tel_click
 export const GTM_ID = "";
