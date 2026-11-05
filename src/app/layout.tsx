@@ -26,6 +26,7 @@ export const metadata: Metadata = {
   },
   twitter: { card: "summary_large_image", title, description },
   robots: { index: true, follow: true },
+  verification: { other: { "naver-site-verification": "b55d9941f3d8e8ffbb672dae90091c3a5b7b3697" } },
   formatDetection: { telephone: false },
 };
 
